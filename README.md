@@ -1,15 +1,16 @@
 # Autism-prevalence-vs-country-population-repository
 Project Title: Autism Prevalence vs Country Population
+**Original project was created at https://github.com/bmscottsugar/class-project-3rd-try.git however, due to an issue with reading in csv files (absolute vs relative pathways) an new repository was created. As a result, the commit total for the new repository is much less than the previous (...class project 3rd try.) repository. 
 
-Class project for Code KY/Louisville Class: My goal is to compare population sizes of various countries with their related rate of autism, per capita, respectively. From kaggle.com , I was able to locate a study that lists the countries, in order that have the highest prevalence of autism, per 10K people. By combing this data with a file I created using the population (using worldbankdata.com) of the countries listed in the first study, I am able to compare the two sets of data. I theorize that the larger the population, the higher the rate of autism (per 10K) will be. Possible causes may include such things as over population, pollution, etc..  If the graph and data show an increased prevalence of autism correlates with larger population,  I would suggest future studies to determine the potential cauases of the increased rate of autism in countries with larger populations, ie) over population, increased pollution, higher vaccination rates, genetically modified food/organisms, etc..
+Class project for Code KY/Louisville Class Data 1: My goal is to compare population sizes of various countries with their related rate of autism, per capita, respectively. From kaggle.com , I was able to locate a study that lists the countries, in order that have the highest prevalence of autism, per 10K people. By combing this data with a file I created using the population (using worldbankdata.com) of the countries listed in the first study, I am able to compare the two sets of data. I theorize that the larger the population, the higher the rate of autism (per 10K) will be. Possible causes may include such things as over population, pollution, etc..  If the graph and data show an increased prevalence of autism correlates with larger population,  I would suggest future studies to determine the potential cauases of the increased rate of autism in countries with larger populations, ie) over population, increased pollution, higher vaccination rates, genetically modified food/organisms, etc..
 
 
-LInk to github.com website for Class Project. (Repo name is Class project 3rd try to be viewed in Jupyter notebook):
- https://github.com/bmscottsugar/class-project-3rd-try/commit/e00942e628fe09a7f42c5c9b65a645316a5467d0
+LInk to github.com website for Class Project. (Repo name is Autism-prevalence-vs-country-population-repository to be viewed in Jupyter notebook):
+https://github.com/bmscottsugar/Autism-prevalence-vs-country-population-repository.git\
 
 File to be downloaded from Class project Repository to be downloaded and opened in Jupyter notebook:
 
-7 28 2022 Autism Project Jupyter File
+Autism-prevalence-vs-country-population-repository/Autism-prevalence-versus-country-population-Class-Project.ipynb
 
 Relevant packages that need to be installed to run the project:
 
@@ -59,11 +60,13 @@ Autism_by_country_and_population['2020 Country Population'] = pd.to_numeric(Auti
 
 3. Analyze your data! This is usually the more fun part and probably has more approaches than I can write here.
   Used the following built in functions to analyze data:
--  len(Country_Population) - -used twice
-- type(Autism_by_country_and_population)
+-  len(Country_Population) to determine length of csv
+- type(Autism_by_country_and_population) to determine datatype of cscv
 - Autism_by_country_and_population["2020 Country Population"].mean()calculated twice. Once for each column of data used
 - Autism_by_country_and_population['prevalencePer10K'].median() calculated twice. Once for each column of data used
 - Printed Top 4 rows and all columns using "data_top = Autism_by_country_and_population.head()
+- Created dataframe from Autism_by_country_and_population csv file.
+- Created list of lists from dataframe created
  
 
 
