@@ -60,11 +60,13 @@ Autism_by_country_and_population['2020 Country Population'] = pd.to_numeric(Auti
 
 3. Analyze your data! This is usually the more fun part and probably has more approaches than I can write here.
   Used the following built in functions to analyze data:
--  len(Country_Population) - -used twice
-- type(Autism_by_country_and_population)
+-  len(Country_Population) to determine length of csv
+- type(Autism_by_country_and_population) to determine datatype of cscv
 - Autism_by_country_and_population["2020 Country Population"].mean()calculated twice. Once for each column of data used
 - Autism_by_country_and_population['prevalencePer10K'].median() calculated twice. Once for each column of data used
 - Printed Top 4 rows and all columns using "data_top = Autism_by_country_and_population.head()
+- Created dataframe from Autism_by_country_and_population csv file.
+- Created list of lists from dataframe created
  
 
 
