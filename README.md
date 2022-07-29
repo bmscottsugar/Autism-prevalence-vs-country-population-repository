@@ -4,8 +4,8 @@ Project Title: Autism Prevalence vs Country Population
 Class project for Code KY/Louisville Class: My goal is to compare population sizes of various countries with their related rate of autism, per capita, respectively. From kaggle.com , I was able to locate a study that lists the countries, in order that have the highest prevalence of autism, per 10K people. By combing this data with a file I created using the population (using worldbankdata.com) of the countries listed in the first study, I am able to compare the two sets of data. I theorize that the larger the population, the higher the rate of autism (per 10K) will be. Possible causes may include such things as over population, pollution, etc..  If the graph and data show an increased prevalence of autism correlates with larger population,  I would suggest future studies to determine the potential cauases of the increased rate of autism in countries with larger populations, ie) over population, increased pollution, higher vaccination rates, genetically modified food/organisms, etc..
 
 
-LInk to github.com website for Class Project. (Repo name is Class project 3rd try to be viewed in Jupyter notebook):
- https://github.com/bmscottsugar/class-project-3rd-try/commit/e00942e628fe09a7f42c5c9b65a645316a5467d0
+LInk to github.com website for Class Project. (Repo name is Autism-prevalence-vs-country-population-repository to be viewed in Jupyter notebook):
+https://github.com/bmscottsugar/Autism-prevalence-vs-country-population-repository.git\
 
 File to be downloaded from Class project Repository to be downloaded and opened in Jupyter notebook:
 
