@@ -9,7 +9,7 @@ LInk to github.com website for Class Project. (Repo name is Class project 3rd tr
 
 File to be downloaded from Class project Repository to be downloaded and opened in Jupyter notebook:
 
-7 28 2022 Autism Project Jupyter File
+Autism-prevalence-vs-country-population-repository/Autism-prevalence-versus-country-population-Class-Project.ipynb
 
 Relevant packages that need to be installed to run the project:
 
